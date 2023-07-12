@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'VCROSDMONO';
 }
 
 /* BODY E CONTAINER */
@@ -16,57 +17,47 @@ body {
 }
 
 /* HEADER */
-.logo {
-    padding-top: 4%;
-}
-
-.logo2 {
-    width: calc(1356px - 1050px);
-    height: 104px;
-}
-
-.description {
-    font-size: 17pt;
+.title {
+    margin-top: 2%;
+    font-size: 24pt;
     text-transform: uppercase;
-
-    font-family: 'VCROSDMONO';
 }
 
 /* MENU */
-nav {
-    max-width: 180px;
+.conteudo {
+    max-width: 850px;
     width: 100%;
-    margin: auto;
-}
-
-nav ul {
-    list-style: none;
+    margin: 4% auto;
     padding: 0;
-    margin: 20% 0;
 }
 
-nav ul a {
-    text-decoration: none;
-}
-
-nav ul li {
+.textcont {
     border: 2px dashed var(--whiteColor);
     padding: 7%;
     margin-bottom: 5%;
-}
 
-nav ul a li {
     font-size: 18pt;
     text-decoration: none;
 
-    text-transform: uppercase;
+    color: var(--whiteColor);
+}
+
+.return {
+    width: 150px;
+    padding: 10px;
+
+    background: none;
+    cursor: pointer;
+
+    font-size: 12pt;
+    border: 2px dashed var(--whiteColor);
+    border-radius: 5px;
     color: var(--whiteColor);
 
-    font-family: 'VCROSDMONO';
     transition: 0.5s;
 }
 
-nav ul a li:hover {
-    background-color: var(--secondaryColor);
+.return:hover {
+    background-color: var(--whiteColor);
     transition: 0.5s;
 }
